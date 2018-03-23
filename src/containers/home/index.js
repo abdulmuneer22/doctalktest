@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Text, View, Keyboard } from "react-native";
+import { Text, View, Keyboard, Platform } from "react-native";
 import Header from "../../components/Header";
 import Search from "../../components/Search";
 import SearchResult from "../../components/SearchResult";
@@ -53,7 +53,7 @@ export class Home extends Component {
       <View
         style={{
           flex: 1,
-          paddingTop: 25
+          paddingTop: Platform.OS === "ios" ? 25 : 0
         }}
       >
         <Header />

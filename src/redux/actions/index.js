@@ -16,6 +16,8 @@ export const SearchUsers = username => {
           type: GET_USER_SUGGESTIONS_FAILED,
           payload: e
         });
+
+        alert(e)
       });
   };
 };

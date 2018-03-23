@@ -7,6 +7,7 @@ const Search = ({ searchUsers }) => (
     editable={true}
     maxLength={40}
     placeholder="Satrt typing username"
+    underlineColorAndroid = 'transparent'
     style={{
       marginHorizontal: 10,
       borderColor: "rgba(1,1,1,0.5)",

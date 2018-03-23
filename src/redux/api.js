@@ -1,6 +1,6 @@
 import axios from "axios";
 const SERVER_IP = "https://api.github.com/";
-const AUTH_TOKEN = "7733e01602cd607a98511889df8651239ded459a";
+const AUTH_TOKEN = "56c1185b36b0147fd65acfbd173dfbbfc550cde6";
 
 var fetch = axios.create({
   baseURL: SERVER_IP
